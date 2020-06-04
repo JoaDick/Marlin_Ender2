@@ -63,7 +63,7 @@ Debug/
 __vm/
 .vs/
 vc-fileutils.settings
-.vscode
+#.vscode
 .vscode/c_cpp_properties.json
 CMakeLists.txt
 Marlin/CMakeLists.txt

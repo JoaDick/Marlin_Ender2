@@ -1,3 +1,13 @@
+[Marlin Firmware](https://github.com/houseofbugs/TH3D-Unified-U1.R2) from 
+[TH3D Studio](https://www.th3dstudio.com)
+with adjustments for my Ender-2.
+
+- `#define ENDER2` enabled
+
+Original README below:
+
+----------
+
 **This firmware is maintained by TH3D. The goal is an easy to use firmware for 3D printers that we have added support for.**
 
 **The issues queue has been disabled as some people do not understand it's for firmware problems and not technical support.**
