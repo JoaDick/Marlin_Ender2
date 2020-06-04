@@ -3,6 +3,7 @@
 with adjustments for my Ender-2.
 
 - `#define ENDER2` enabled
+- adjusted `M600` (filament change) to run absolutely smooth
 
 Original README below:
 

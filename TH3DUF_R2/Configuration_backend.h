@@ -2572,7 +2572,7 @@
     #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 95 }
   #endif
   
-  #define DEFAULT_MAX_FEEDRATE          { 500, 500, 15, 50 }
+  #define DEFAULT_MAX_FEEDRATE          { 500, 500, 15, 50 } // E60?
   #define DEFAULT_MAX_ACCELERATION      { 2000, 2000, 500, 5000 }
 
   #define DEFAULT_ACCELERATION          1000    
@@ -2608,7 +2608,7 @@
   
   #define X_BED_SIZE 160
   #define Y_BED_SIZE 150
-  #define Z_MAX_POS 220
+  #define Z_MAX_POS 190 // 220
   
   #define PRINTER_ENABLED_CHECK
 
@@ -3559,11 +3559,11 @@
 #define DEFAULT_KEEPALIVE_INTERVAL 2
 
 #define PREHEAT_1_TEMP_HOTEND 200
-#define PREHEAT_1_TEMP_BED     60
+#define PREHEAT_1_TEMP_BED     50 // 60
 #define PREHEAT_1_FAN_SPEED     0 
 
-#define PREHEAT_2_TEMP_HOTEND 240
-#define PREHEAT_2_TEMP_BED    100
+#define PREHEAT_2_TEMP_HOTEND 200 // 240
+#define PREHEAT_2_TEMP_BED     50 // 100
 #define PREHEAT_2_FAN_SPEED     0 
 
 #define NOZZLE_PARK_FEATURE
@@ -3574,7 +3574,7 @@
     #define NOZZLE_PARK_XY_FEEDRATE 100  
     #define NOZZLE_PARK_Z_FEEDRATE 5  
   #else  
-    #define NOZZLE_PARK_POINT { 10, 10, 10 }
+    #define NOZZLE_PARK_POINT { 5, 5, 5 } // { 10, 10, 10 }
     #define NOZZLE_PARK_XY_FEEDRATE 100  
     #define NOZZLE_PARK_Z_FEEDRATE 5  
   #endif
